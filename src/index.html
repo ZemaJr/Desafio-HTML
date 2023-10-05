@@ -13,7 +13,7 @@
   </head>
   <body>
     <h1>Formulário HTML 5</h1>
-    <form class="form">
+    <form class="form" action="">
       <fieldset>
         <legend class="label">Cadastro</legend>
 
@@ -69,6 +69,16 @@
           cols="60"
         ></textarea>
         <br /><br />
+
+        <label class="label" for="senha">Senha:</label>
+        <input
+          class="input"
+          type="password"
+          min="8"
+          max="10"
+          id="senha"
+          name="senha"
+        /><br /><br />
 
         <input class="button" type="submit" value="Enviar" />
       </fieldset>
